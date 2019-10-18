@@ -20,7 +20,7 @@ from words import views
 
 
 urlpatterns = [
-    url(r'^$', views.calculateHighestFrequency, name='calculateHighestFrequency'),
+    url(r'^$', views.calculate, name='calculate'),
     path('words/', include('words.urls')),
     path('admin/', admin.site.urls),
 ]
